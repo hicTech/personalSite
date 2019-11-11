@@ -1,0 +1,90 @@
+body{
+  background-color:#222;
+  color: rgba(255,255,255,0.8);
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+#menu{
+  text-align: center;
+  padding: 35px 0px;
+  display: block;
+  overflow: auto;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+#menu.active{
+  background-color: rgba(0,0,0,0.85);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+  border-bottom: solid 1px rgba(255,255,255,0.2);
+}
+
+#menu a{
+  text-decoration:none;
+  color: rgba(255,255,255,0.6);
+  border: solid 1px;
+  padding:5px 12px;
+  margin:0px 10px;
+  border-radius: 6px;
+  background-color: rgba(0,0,0,0.5);
+  text-transform: uppercase;
+  
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  
+}
+
+#menu a:hover{
+  border: solid 5px white;
+  box-shadow: 0px 0px 20px 8px rgba(4, 203, 248, 0.3);
+  background-color: rgba(255,255,255,0.1);
+  
+}
+
+#menu a.active{
+  color:#1376f0;
+}
+
+.content{
+  width: 80%;
+  margin: 120px auto;
+  max-width: 1300px;
+}
+
+.sections{
+
+}
+
+.section{
+  
+}
+
+.section h1{
+  color:  #1376f0;
+  margin: 17px 19px -9px 21px;
+}
+
+.section .section_container{
+  background-color: rgba(0,0,0,0.2);
+  padding: 50px;
+  line-height: 1.66em;
+  margin-top: 20px;
+}
+
+.sections .section{
+  display:none;
+}
+
+.sections .section:first-child{
+  display:block;
+}
+
