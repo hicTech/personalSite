@@ -14,9 +14,9 @@ $(document).ready(function(){
 
 function avviaApp(data){
     let json = data;
-    stampaMenu(data);
-    bindaClickMenu();
-    //stampaMenuConBind(data);
+    //stampaMenu(data);
+    //bindaClickMenu();
+    stampaMenuConBind(data);
     stampaSezioni(data);
 }
 
@@ -30,6 +30,8 @@ function stampaMenu(data){
         let button = $("<a href='#' class='sponsor "+ is_active +"'>"+ data.sections[i].button_label +"</a>");
         target.append(button)
     }
+
+
 }
 
 
@@ -42,7 +44,13 @@ function stampaMenuConBind(data){
 
         button.on("click", function(){
 
-            attivaSection($(this).index());
+            if(!$(this).is(".active")){
+                $("#menu a").removeClass("active");
+                $(this).addClass("active");
+                attivaSection($(this).index());
+            }
+
+            
         })
 
         target.append(button)
