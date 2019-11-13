@@ -1,0 +1,60 @@
+{
+  "title" : "Pagina web personale",
+  "lang" : "it",
+  "sections" : [
+    {
+      "id" : 0,
+      "button_label" : "Casa",
+      "title" : "home",
+      "text" : "Benvenuti a casa mia"
+    },
+    {
+      "id" : 1,
+      "button_label" : "chi siamo",
+      "title" : "Ecco il nostro team",
+      "text" : "Il nostro team di sviluppo è costituito da 3 sviluppatori"
+    },
+    {
+      "id" : 2,
+      "button_label" : "dove siamo",
+      "title" : "Vieni a trovarci",
+      "text" : "Ci trovi in via Rossi 34, Cosenza"
+    },
+    {
+      "id" : 3,
+      "button_label" : "contatti",
+      "title" : "Dicci la tua",
+      "text" : "Scrivici a team@esempio.com per raccontarci la tua esperienza"
+    },
+    {
+      "id" : 4,
+      "button_label" : "riferimenti",
+      "title" : "Ecco i nostri riferimenti",
+      "text" : "Scrivici a team@esempio.com per raccontarci la tua esperienza"
+    },
+    {
+      "id" : 4,
+      "button_label" : "riferimenti",
+      "title" : "Ecco i nostri riferimenti",
+      "text" : "Scrivici a team@esempio.com per raccontarci la tua esperienza"
+    },
+    {
+      "id" : 4,
+      "button_label" : "riferimenti",
+      "title" : "Ecco i nostri riferimenti",
+      "text" : "Scrivici a team@esempio.com per raccontarci la tua esperienza"
+    },
+    {
+      "id" : 4,
+      "button_label" : "riferimenti",
+      "title" : "Ecco i nostri riferimenti",
+      "text" : "Scrivici a team@esempio.com per raccontarci la tua esperienza"
+    },
+    {
+      "id" : 4,
+      "button_label" : "riferimenti",
+      "title" : "Ecco i nostri riferimenti",
+      "text" : "Scrivici a team@esempio.com per raccontarci la tua esperienza"
+    }
+  ]
+}
